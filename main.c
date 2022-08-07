@@ -37,7 +37,7 @@ int main()
         }
         else
         {
-            fprintf(stderr, "\n\nInvalid input character!\nPlease input EPON MAC address like 112233AABBCC\n");
+            fprintf(stderr, "\n\nInvalid input character!\nPlease input GPON MAC address like 112233AABBCC\n");
             return EINVAL;
         }
     }
